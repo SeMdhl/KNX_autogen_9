@@ -1,0 +1,7 @@
+STLV59_563	STLV59_A_563
+001	99999	99999	Placeholder 1
+002	99999	99999	Placeholder 2
+003	9992	9992	Placeholder 3
+4K302	111001	111001	Herre garderobe
+4L302	111001	111001	Dame garderobe
+
