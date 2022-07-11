@@ -32,16 +32,19 @@ void OpenFile()
     cout << "Filnavn: ";      //Spør etter filnavn
     cin >> sSource;       //Tar inn filnavn og lagrer på sSource
 
-    sFilPath = (sPath2 + sSource);       //Den fulle adressen til filen som skal leses fra
-    cout << sFilPath << "\n";                   //test
+    sFilPath = (sPath2 + sSource);       //Den fulle adressen til filen som skal leses fra                   
 
+    int pos = sFilPath.find(".");       //possisjon på punktum
+    if (pos <= 0)                       //Hvis det ikke er et punktum i fil adressen, legger den til .txt på slutten
+        sFilPath+= ".txt";      //Åpner fil som skal leses fra
 
+    cout << sFilPath << "\n";
+    ifstream fInput(sFilPath);      //Åpner fil som skal leses fra
 
-    ifstream fInput(sFilPath + ".txt");      //Åpner fil som skal leses fra
     //fInput.open(sFilPath);        //test
     if (!fInput.is_open())       //Sjekker om filen ble åpnet
     {
-        cout << "Cant open file\n\tHusk .txt, Ikke run program i 'rare' mapper (mtp. adresse)\n";     //Melder ifra om feil hvis fil ikke ble åpnet
+        cout << "Cant open file\n\tHusk .<filype> hvis filtypen ikke er txt,  Ikke run program i 'rare' mapper (mtp. adresse), run som administrator hvis program er lagret i mappe som krever administrator tilgang (f.eks C:\\)\n";     //Melder ifra om feil hvis fil ikke ble åpnet
         //Sleep(10000);
         OpenFile();
         return;
@@ -53,7 +56,7 @@ void OpenFile()
 }
 void Read() //Spør etter navn på fil som skal leses, og leser deretter inn hver linje og lagrer dem i egne variabler.
 {
-    ifstream fInput(sFilPath + ".txt");      //Åpner fil som skal leses fra
+    ifstream fInput(sFilPath);      //Åpner fil som skal leses fra
     /*cout << "Skriv inn GVL navn\n\teksempel: STLV80_563\n\tGVL navn: ";      //Spør etter GVL navn eks. STLV80_360
     cin >> sGVL;       //Tar inn GVL Navn
     cout << "Skriv inn adresseformat\n\teksempel: STLV80_A_563_[Rom]\t IKKE ta med Rom\n\tAdresseformat: ";      //Spør etter adresse format eks. STLV80_563.STLV80_A_563_

@@ -11,48 +11,49 @@ C:\Users\mdahl\JOBB\11VisualStudio\mdhl_lib\mdhl_Knx_v9.h(541,46): warning C4267
 C:\Users\mdahl\JOBB\11VisualStudio\mdhl_lib\mdhl_Knx_v9.h(658,46): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
 C:\Users\mdahl\JOBB\11VisualStudio\mdhl_lib\mdhl_Knx_v9.h(808,42): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
 C:\Users\mdahl\JOBB\11VisualStudio\mdhl_lib\mdhl_Knx_v9.h(836,42): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\mdahl\JOBB\11VisualStudio\VS_c++\KNX_CFC_Autogen_9\KNX_CFC_Autogen_9\Source.cpp(90,41): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\mdahl\JOBB\11VisualStudio\VS_c++\KNX_CFC_Autogen_9\KNX_CFC_Autogen_9\Source.cpp(100,47): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\mdahl\JOBB\11VisualStudio\VS_c++\KNX_CFC_Autogen_9\KNX_CFC_Autogen_9\Source.cpp(106,47): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\mdahl\JOBB\11VisualStudio\VS_c++\KNX_CFC_Autogen_9\KNX_CFC_Autogen_9\Source.cpp(124,53): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\mdahl\JOBB\11VisualStudio\VS_c++\KNX_CFC_Autogen_9\KNX_CFC_Autogen_9\Source.cpp(138,59): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\mdahl\JOBB\11VisualStudio\VS_c++\KNX_CFC_Autogen_9\KNX_CFC_Autogen_9\Source.cpp(144,63): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\mdahl\JOBB\11VisualStudio\VS_c++\KNX_CFC_Autogen_9\KNX_CFC_Autogen_9\Source.cpp(152,63): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\mdahl\JOBB\11VisualStudio\VS_c++\KNX_CFC_Autogen_9\KNX_CFC_Autogen_9\Source.cpp(160,63): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\mdahl\JOBB\11VisualStudio\VS_c++\KNX_CFC_Autogen_9\KNX_CFC_Autogen_9\Source.cpp(168,63): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(2575,23): warning C4244: 'argument': conversion from 'wchar_t' to 'const _Elem', possible loss of data
+C:\Users\mdahl\JOBB\11VisualStudio\VS_c++\KNX_CFC_Autogen_9\KNX_CFC_Autogen_9\Source.cpp(37,33): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\mdahl\JOBB\11VisualStudio\VS_c++\KNX_CFC_Autogen_9\KNX_CFC_Autogen_9\Source.cpp(93,41): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\mdahl\JOBB\11VisualStudio\VS_c++\KNX_CFC_Autogen_9\KNX_CFC_Autogen_9\Source.cpp(103,47): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\mdahl\JOBB\11VisualStudio\VS_c++\KNX_CFC_Autogen_9\KNX_CFC_Autogen_9\Source.cpp(109,47): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\mdahl\JOBB\11VisualStudio\VS_c++\KNX_CFC_Autogen_9\KNX_CFC_Autogen_9\Source.cpp(127,53): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\mdahl\JOBB\11VisualStudio\VS_c++\KNX_CFC_Autogen_9\KNX_CFC_Autogen_9\Source.cpp(141,59): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\mdahl\JOBB\11VisualStudio\VS_c++\KNX_CFC_Autogen_9\KNX_CFC_Autogen_9\Source.cpp(147,63): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\mdahl\JOBB\11VisualStudio\VS_c++\KNX_CFC_Autogen_9\KNX_CFC_Autogen_9\Source.cpp(155,63): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\mdahl\JOBB\11VisualStudio\VS_c++\KNX_CFC_Autogen_9\KNX_CFC_Autogen_9\Source.cpp(163,63): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\mdahl\JOBB\11VisualStudio\VS_c++\KNX_CFC_Autogen_9\KNX_CFC_Autogen_9\Source.cpp(171,63): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(2541,23): warning C4244: 'argument': conversion from 'wchar_t' to 'const _Elem', possible loss of data
           with
           [
               _Elem=char
           ]
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(2586): message : see reference to function template instantiation 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct<wchar_t*>(_Iter,const _Iter,std::input_iterator_tag)' being compiled
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(2552): message : see reference to function template instantiation 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct<wchar_t*>(_Iter,const _Iter,std::input_iterator_tag)' being compiled
           with
           [
               _Iter=wchar_t *
           ]
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(2586): message : see reference to function template instantiation 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct<wchar_t*>(_Iter,const _Iter,std::input_iterator_tag)' being compiled
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(2552): message : see reference to function template instantiation 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct<wchar_t*>(_Iter,const _Iter,std::input_iterator_tag)' being compiled
           with
           [
               _Iter=wchar_t *
           ]
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(2566): message : see reference to function template instantiation 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct<wchar_t*>(const _Iter,const _Iter,std::forward_iterator_tag)' being compiled
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(2532): message : see reference to function template instantiation 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct<wchar_t*>(const _Iter,const _Iter,std::forward_iterator_tag)' being compiled
           with
           [
               _Iter=wchar_t *
           ]
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(2566): message : see reference to function template instantiation 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct<wchar_t*>(const _Iter,const _Iter,std::forward_iterator_tag)' being compiled
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(2532): message : see reference to function template instantiation 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct<wchar_t*>(const _Iter,const _Iter,std::forward_iterator_tag)' being compiled
           with
           [
               _Iter=wchar_t *
           ]
-C:\Users\mdahl\JOBB\11VisualStudio\VS_c++\KNX_CFC_Autogen_9\KNX_CFC_Autogen_9\Source.cpp(195): message : see reference to function template instantiation 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)' being compiled
+C:\Users\mdahl\JOBB\11VisualStudio\VS_c++\KNX_CFC_Autogen_9\KNX_CFC_Autogen_9\Source.cpp(198): message : see reference to function template instantiation 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)' being compiled
           with
           [
               _Elem=wchar_t,
               _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
               _Alloc=std::allocator<char>
           ]
-C:\Users\mdahl\JOBB\11VisualStudio\VS_c++\KNX_CFC_Autogen_9\KNX_CFC_Autogen_9\Source.cpp(195): message : see reference to function template instantiation 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)' being compiled
+C:\Users\mdahl\JOBB\11VisualStudio\VS_c++\KNX_CFC_Autogen_9\KNX_CFC_Autogen_9\Source.cpp(198): message : see reference to function template instantiation 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)' being compiled
           with
           [
               _Elem=wchar_t,
